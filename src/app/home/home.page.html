@@ -1,0 +1,39 @@
+
+  <ion-toolbar>
+    <img src="assets/img/agregar-usuario.png" alt="Logo" class="imagen-logo">
+    <ion-title class="fuente-titulo">
+      ‎ ‎ RegisApp
+    </ion-title>
+  </ion-toolbar>
+
+
+
+<ion-content> 
+  
+  <ion-card class="login-card">
+    <ion-card class="Container-In">
+    <ion-card-header class="login-card-header">
+      Iniciar Sesión
+    </ion-card-header>
+    <ion-card-content class="Container-In">
+    <form class="Container-In" (ngSubmit)="onSubmit()">
+          <ion-input  [(ngModel)]="username" placeholder="‎ Usuario" label="‎ Ingrese su usuario" 
+                     name="username" type="text" labelPlacement="floating" required></ion-input>
+          <br>  
+          <ion-input [(ngModel)]="password" placeholder="‎ Contraseña" label=" ‎ Ingrese su contraseña" name="password" [type]="passwordType"  labelPlacement="floating" required>
+          <ion-icon class="eye" slot="end" (click)="togglePasswordVisibility()" [name]="passwordType === 'password' ? 'eye-off' : 'eye'"></ion-icon></ion-input>
+          <br>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>Recordar</ion-label>
+      
+        <ion-button expand="block" type="submit">Enviar</ion-button>
+        <ion-button expand="block" color="tertiary" [routerLink]="['/change-password']">
+          Cambiar Contraseña
+        </ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+  
+  </ion-card>
+  
+</ion-content>

@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <img src="assets/img/agregar-usuario.png" alt="Logo" class="imagen-logo">
+    <ion-title class="fuente-titulo">Registrar Asistencia</ion-title>
+    <ion-icon class="LogOut" name="log-out-outline" slot="end" (click)="logout()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="welcome-box">
+    <h1>Registra tu Asistencia Aquí</h1>
+    <p>¡ESCANEA EL QR!</p>
+  </div>
+
+  <div class="qr-container">
+    <img class="qr" src="assets/img/QR.webp" alt="Código QR que dirige a la página de inicio de la empresa">
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

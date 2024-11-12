@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>
+    <img src="assets/img/agregar-usuario.png" alt="Logo" class="imagen-logo">
+    <ion-title class="fuente-titulo">Asignaturas</ion-title>
+    <ion-icon class="LogOut" name="log-out-outline"  slot="end" (click)="logout()">
+          
+    </ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+
+    <ion-row class="header-row">
+      <ion-col size="3"><strong>Asignatura</strong></ion-col>
+      <ion-col size="2"><strong>Sección</strong></ion-col>
+      <ion-col size="3"><strong>Horario</strong></ion-col>
+      <ion-col size="4"><strong>Profesor</strong></ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Matemáticas</ion-col>
+      <ion-col size="2">A1</ion-col>
+      <ion-col size="3">Lunes 10:00 - 12:00</ion-col>
+      <ion-col size="4">Prof. García</ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Física</ion-col>
+      <ion-col size="2">B1</ion-col>
+      <ion-col size="3">Martes 08:00 - 10:00</ion-col>
+      <ion-col size="4">Prof. Pérez</ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Química</ion-col>
+      <ion-col size="2">C1</ion-col>
+      <ion-col size="3">Miércoles 11:00 - 13:00</ion-col>
+      <ion-col size="4">Prof. López</ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Historia</ion-col>
+      <ion-col size="2">D1</ion-col>
+      <ion-col size="3">Jueves 09:00 - 11:00</ion-col>
+      <ion-col size="4">Prof. Fernández</ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Inglés</ion-col>
+      <ion-col size="2">E1</ion-col>
+      <ion-col size="3">Viernes 14:00 - 16:00</ion-col>
+      <ion-col size="4">Prof. Martínez</ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col size="3">Educación Física</ion-col>
+      <ion-col size="2">F1</ion-col>
+      <ion-col size="3">Sábado 08:00 - 10:00</ion-col>
+      <ion-col size="4">Prof. Rodríguez</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu"></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-footer>

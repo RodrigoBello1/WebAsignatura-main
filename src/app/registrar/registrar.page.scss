@@ -1,0 +1,78 @@
+:host { 
+  background-image: url(../../assets/img/Fondo_pagina.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ion-content {
+  display: grid;              /* Activa el modelo de Grid */
+  place-items: center;        /* Centra ambos ejes (horizontal y vertical) */
+  height: 100%;               /* Asegura que ocupa todo el espacio vertical */
+  width: 100%;                /* Asegura que ocupa todo el espacio horizontal */
+  padding: 0;                 /* Elimina padding */
+  margin: 0;                  /* Elimina márgenes */
+  --background: transparent;   /* Fondo transparente */
+}
+
+.LogOut {
+  background-color: #e53935;
+  color: #ffffff; 
+  border-radius: 8px; 
+  padding: 10px 15px; 
+  text-align: center; 
+  border: none; 
+  font-size: 16px; 
+  --box-shadow: none; 
+  &:hover {
+    background-color: #d32f2f;
+  }
+}
+
+.welcome-box {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+/* Ajustar la clase QR */
+.qr {
+  height: 300px;               /* Altura fija */
+  width: 300px;                /* Ancho fijo */
+}
+
+.qr-container {
+  display: flex;               /* Usar flexbox para centrar */
+  justify-content: center;     /* Centra horizontalmente */
+  align-items: center;         /* Centra verticalmente */
+  margin-top: 20px;           /* Espacio superior */
+}
+
+.imagen-logo {
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.fuente-titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ffffff;
+  position: relative;
+  left: 20px;
+}
+
+ion-header {
+  --background: #0a0c3d;
+}
+
+ion-toolbar {
+  --background: #0a0c3d;
+}

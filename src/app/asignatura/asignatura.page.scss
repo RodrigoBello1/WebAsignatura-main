@@ -1,0 +1,91 @@
+:host { 
+    background-image: url(../../assets/img/Fondo_pagina.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .LogOut {
+    background-color: #e53935;
+    color: #ffffff; 
+    border-radius: 8px; 
+    padding: 10px 15px; 
+    text-align: center; 
+    border: none; 
+    font-size: 16px; 
+    --box-shadow: none; 
+    &:hover {
+      background-color: #d32f2f;
+    }
+  }
+
+  .imagen-logo {
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+
+  .fuente-titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: optional;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+  }
+
+  ion-header {
+    --background: #0a0c3d;
+  }
+  
+  ion-toolbar {
+    --background: #0a0c3d;
+  }
+  
+  ion-title {
+    color: #ffffff;
+  }
+  
+  ion-content {
+    --background: transparent !important;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .header-row {
+    margin-top: 5cm;
+    background-color: #0a0c3d; 
+    color: #fff;
+    border-bottom: 2px solid #555; 
+    border-radius: 12px 12px 0 0; 
+  }
+  
+  .data-row {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 10px 5px; 
+    border-bottom: 1px solid #777;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  
+  ion-col {
+    padding: 10px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #ffffff; 
+    border-right: 1px solid #777; 
+  }
+  
+  
+  ion-col:last-child {
+    border-right: none;
+  }
+  
+  
+  .data-row:last-child {
+    border-bottom: none; 
+  }
+  
